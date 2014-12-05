@@ -60,12 +60,12 @@ tar czvf /path/to/foo.tgz --exclude=\*.{jpg,gif,png,wmv,flv,tar.gz,zip} /path/to
 ```
 
 ## Functions
-+ `cheat` show <cheatsheet>
-+ `cheat-add-current-buffer` Add current buffer to cheatsheets
++ `cheat`                      show cheatsheet
++ `cheat-add-current-buffer`   Add current buffer to cheatsheets
 + `cheat-command`
-+ `cheat-directories`  List directories on CHEATPATH
-+ `cheat-edit`  Edit cheatsheet
-+ `cheat-list` List cheatsheets
-+ `cheat-save-current-buffer` Save current buffer to cheatsheets
-+ `cheat-search` Search cheatsheets for <keyword
-+ `cheat-version` Print the version number
++ `cheat-directories`          List directories on CHEATPATH
++ `cheat-edit`                 Edit cheatsheet
++ `cheat-list`                 List cheatsheets
++ `cheat-save-current-buffer`  Save current buffer to cheatsheets
++ `cheat-search`               Search cheatsheets for <keyword
++ `cheat-version`              Print the version number
