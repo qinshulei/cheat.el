@@ -1,5 +1,5 @@
 # cheat.el
-Provide a handy interface to cheat.
+Provide a handy emacs interface to cheat.
 
 cheat allows you to create and view interactive cheatsheets on the
 command-line. It was designed to help remind *nix system
@@ -9,6 +9,19 @@ but not frequently enough to remember.
 See [cheat](https://github.com/chrisallenlane/cheat) for details on cheat itself.
 
 ## Installation
++ Install [cheat](https://github.com/chrisallenlane/cheat) first
+```
+sudo apt-get install python2.7 python2.7-dev python3.2 python3.2-dev
+sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2-dev libxslt-dev
+sudo apt-get install python-pip
+sudo pip install docopt pygments
+cd ~
+git clone https://github.com/chrisallenlane/cheat.git cheat
+cd cheat
+sudo python setup.py install
+```
+
++ Install cheat.el
 ```
 ;; add cheat.el to your load path
 (require 'cheat)
